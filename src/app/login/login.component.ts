@@ -3,7 +3,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
-  encapsulation: ViewEncapsulation.Emulated,
+  encapsulation: ViewEncapsulation.none,
   styles: [`
     #login {
       background-color: red;
